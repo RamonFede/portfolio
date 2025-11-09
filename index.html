@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramon Fede Portfolio Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <span class="logo-text">RAMON FEDE</span>
+            </a>
+            
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">PROFILO</a></li>
+                    <li><a href="#projects">PROGETTI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTATTI</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="FS JAVA DEV">FS JAVA DEV</h1>
+            <p class="subtitle">DA OLTRE QUINDICI ANNI NEL CAMPO INFORMATICO..</p>
+        </div>
+        <a href="#about" class="scroll-btn">
+            <div class="scroll-btn-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+                </svg>
+            </div>
+        </a>
+    </section>
+
+  <section id="about" class="fade-in">
+    <h2 class="section-title">IL MIO PROFILO</h2>
+    <div class="about-container">
+        <div class="about-image">
+            <div class="profile-img-wrapper">
+                <div class="profile-img">
+                    <img src="emg.jpg" alt="Ramon Fede" class="profile-photo">
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h3>Crafting Digital Experiences</h3>
+            <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                Mi occupo di progettare e realizzare applicazioni web e servizi back end, 
+                utilizzando tecnologie come Java Spring Boot. La mia passione è creare applicazioni robuste, scalabili e facilmente manutenibili, 
+                che diano risultati concreti e migliorino i processi.
+            </p>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+               Per me ogni progetto è un’opportunità per combinare competenza tecnica e attenzione ai dettagli, 
+               garantendo risultati affidabili e di alta professionalita'.
+            </p>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Releases</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">NUOVI PROGETTI</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Showcase Site</h3>
+                <p style="color: var(--text-secondary);">Tecnology: Java Spring Boot, Spring Security, Maven, MVC, JPA, Postgre, API REST, Java Mail Sender, Thymeleaf, HTML5, CSS</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Gestional Fishing</h3>
+                <p style="color: var(--text-secondary);">Tecnology: Java Spring Boot, Maven, MVC, JPA, API REST, Postgre, AngularTS, HTML5, CSS3</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Whatsapp Bot</h3>
+                <p style="color: var(--text-secondary);">Tecnology: Java Spring Boot, Maven, API REST, Docker, Ultramessage</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Personal Web Site</h3>
+                <p style="color: var(--text-secondary);">Tecnology: Java Spring Boot, Maven, Spring Security JWT, MVC, JPA, Postgre, Thymeleaf, HTML5, CSS</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Course Portal</h3>
+                <p style="color: var(--text-secondary);">Tecnology Microservices: Java Spring Boot, Maven, Keycloak, Eureka, Api Gateway, Postgre, JPA, API REST, AngularTS, HTML5, CSS3</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">E-Commerce Site</h3>
+                <p style="color: var(--text-secondary);">The new project is in the planning..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">LE MIE SKILLS</h2>
+        <div class="skills-container">
+            <div class="skill-node"><span>Informatica</span></div>
+            <div class="skill-node"><span>JavaEE</span></div>
+            <div class="skill-node"><span>SpringBoot</span></div>
+            <div class="skill-node"><span>Security</span></div>
+            <div class="skill-node"><span>Maven</span></div>
+            <div class="skill-node"><span>MVC</span></div>
+            <div class="skill-node"><span>JPA</span></div>
+            <div class="skill-node"><span>Postgre</span></div>
+            <div class="skill-node"><span>RESTFULL</span></div>
+            <div class="skill-node"><span>JSON</span></div>
+            <div class="skill-node"><span>JUnit</span></div>
+            <div class="skill-node"><span>Thymeleaf</span></div>
+            <div class="skill-node"><span>Typescript</span></div>
+            <div class="skill-node"><span>AngularTS</span></div>
+            <div class="skill-node"><span>KEYCLOAK</span></div>
+            <div class="skill-node"><span>EUREKA</span></div>
+            <div class="skill-node"><span>GATEWAY</span></div>
+            <div class="skill-node"><span>HTML5</span></div>
+            <div class="skill-node"><span>CSS3</span></div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+       <h2 class="section-title">INVIA UNA MAIL</h2>
+
+       <form action="https://formspree.io/f/mpwykjvw" method="POST" class="contact-form glass-card">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Inserisci il tuo nome" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Inserisci la tua email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea rows="5" name="message" placeholder="Inserisci il tuo messaggio" required></textarea>
+            </div>
+
+            <button type="submit" class="neural-btn">INVIA</button>
+        </form>
+
+        <div id="responseMessage" style="display:none; color:green; margin-top:10px; text-align:center;">Messaggio inviato.</div>
+    </section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Navigazione</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Profilo</a></li>
+                <li><a href="#projects">Progetti</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Visita Anche</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 10px;">GitHub & LinkedIn</p>
+
+            
+            <div class="social-links">
+                <a href="https://github.com/RamonFede" target="_blank">
+                    <svg height="26" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 
+                        6.53 5.47 7.59.4.07.55-.17.55-.38 
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
+                        1.08.58 1.23.82.72 1.21 1.87.87 
+                        2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
+                        0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 
+                        1.36.09 2 .27 1.53-1.04 2.2-.82 
+                        2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 
+                        1.27.82 2.15 0 3.07-1.87 3.75-3.65 
+                        3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 
+                        2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 
+                        8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+
+                <a href="https://www.linkedin.com/in/ramon-fede-111988356/" target="_blank">
+                    <svg height="26" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.76 0-5 2.24-5 
+                        5v14c0 2.76 2.24 5 5 
+                        5h14c2.76 0 5-2.24 
+                        5-5v-14c0-2.76-2.24-5-5-5zm-11 
+                        19h-3v-10h3v10zm-1.5-11.27c-.97 
+                        0-1.75-.79-1.75-1.76s.78-1.76 
+                        1.75-1.76 1.75.79 
+                        1.75 1.76-.78 1.76-1.75 
+                        1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 
+                        0-2.16 1.46-2.16 2.97v5.69h-3v-10h2.89v1.37h.04c.4-.75 
+                        1.38-1.54 2.84-1.54 3.04 0 3.6 2.01 
+                        3.6 4.63v5.54z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Ramon Fede Portfolio Online. Tutti i diritti sono riservati.</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
